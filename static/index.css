@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para as caixas de entrada */
+  .box {
+    margin: 10px 0;
+  }
+  
+  .box label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .box input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para o botão */
+  .form-button {
+    margin-top: 20px;
+  }
+  
+  .btn-send {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-send:hover {
+    background-color: #45a049;
+  }
+  .nome,
+.dre {
+  margin: 10px 0;
+}
+
+.nome label,
+.dre label {
+  font-weight: bold;
+  display: block;
+}
+
+.nome input[type="text"],
+.dre input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
